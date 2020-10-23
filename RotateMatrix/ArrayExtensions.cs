@@ -1,5 +1,7 @@
 using System;
 
+#pragma warning disable CA1814
+
 namespace RotateMatrix
 {
     public static class ArrayExtensions
