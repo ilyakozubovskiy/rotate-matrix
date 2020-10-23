@@ -1,6 +1,4 @@
-﻿using System;
-
-#pragma warning disable CA1814
+using System;
 
 namespace RotateMatrix
 {
