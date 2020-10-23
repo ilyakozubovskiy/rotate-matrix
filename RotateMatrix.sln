@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateMatrix", "RotateMatrix\RotateMatrix.csproj", "{3D28531C-F90C-4D0E-9F95-B15AFEF6BBFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateMatrix.Tests", "RotateMatrix.Tests\RotateMatrix.Tests.csproj", "{34C336AD-2DF9-4119-9662-FAD7AFDA4F24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D28531C-F90C-4D0E-9F95-B15AFEF6BBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D28531C-F90C-4D0E-9F95-B15AFEF6BBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D28531C-F90C-4D0E-9F95-B15AFEF6BBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D28531C-F90C-4D0E-9F95-B15AFEF6BBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C336AD-2DF9-4119-9662-FAD7AFDA4F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C336AD-2DF9-4119-9662-FAD7AFDA4F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C336AD-2DF9-4119-9662-FAD7AFDA4F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C336AD-2DF9-4119-9662-FAD7AFDA4F24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
