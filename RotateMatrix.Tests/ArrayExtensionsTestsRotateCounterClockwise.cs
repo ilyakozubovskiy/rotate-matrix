@@ -1,0 +1,63 @@
+﻿using System;
+using NUnit.Framework;
+
+#pragma warning disable CA1814
+#pragma warning disable CA1707
+
+namespace RotateMatrix.Tests
+{
+    public class ArrayExtensionsTestsRotateCounterClockwise
+    {
+        [TestCaseSource(typeof(TestCasesSource), nameof(TestCasesSource.TestCasesRotate90DegreesCounterСlockwise))]
+        public void Rotate90DegreesCounterClockwise_Tests(int[,] matrix, int[,] rotatedMatrix)
+        {
+            matrix.Rotate90DegreesCounterClockwise();
+            Assert.AreEqual(rotatedMatrix, matrix);
+        }
+
+        [Test]
+        public void Rotate90DegreesCounterClockwise_MatrixIsNull_ThrowArgumentNullException()
+        {
+            Assert.Throws<ArgumentNullException>(() => ArrayExtensions.Rotate90DegreesCounterClockwise(null));
+        }
+
+        [TestCaseSource(typeof(TestCasesSource), nameof(TestCasesSource.TestCasesRotate180DegreesCounterСlockwise))]
+        public void Rotate180DegreesCounterClockwise_Tests(int[,] matrix, int[,] rotatedMatrix)
+        {
+            matrix.Rotate180DegreesCounterClockwise();
+            Assert.AreEqual(rotatedMatrix, matrix);
+        }
+
+        [Test]
+        public void Rotate180DegreesCounterClockwise_MatrixIsNull_ThrowArgumentNullException()
+        {
+            Assert.Throws<ArgumentNullException>(() => ArrayExtensions.Rotate180DegreesCounterClockwise(null));
+        }
+
+        [TestCaseSource(typeof(TestCasesSource), nameof(TestCasesSource.TestCasesRotate270DegreesCounterСlockwise))]
+        public void Rotate270DegreesCounterClockwise_Tests(int[,] matrix, int[,] rotatedMatrix)
+        {
+            matrix.Rotate270DegreesCounterClockwise();
+            Assert.AreEqual(rotatedMatrix, matrix);
+        }
+
+        [Test]
+        public void Rotate270DegreesCounterClockwise_MatrixIsNull_ThrowArgumentNullException()
+        {
+            Assert.Throws<ArgumentNullException>(() => ArrayExtensions.Rotate270DegreesCounterClockwise(null));
+        }
+
+        [TestCaseSource(typeof(TestCasesSource), nameof(TestCasesSource.TestCasesRotate360DegreesCounterСlockwise))]
+        public void Rotate360DegreesCounterClockwise_Tests(int[,] matrix, int[,] rotatedMatrix)
+        {
+            matrix.Rotate360DegreesCounterClockwise();
+            Assert.AreEqual(rotatedMatrix, matrix);
+        }
+
+        [Test]
+        public void Rotate360DegreesCounterClockwise_MatrixIsNull_ThrowArgumentNullException()
+        {
+            Assert.Throws<ArgumentNullException>(() => ArrayExtensions.Rotate360DegreesCounterClockwise(null));
+        }
+    }
+}
