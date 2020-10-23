@@ -7,7 +7,7 @@ namespace RotateMatrix
     public static class ArrayExtensions
     {
         /// <summary>
-        /// Rotates the image clockwise by 90° and do it in place.
+        /// Rotates the image clockwise by 90° in place.
         /// </summary>
         /// <param name="matrix">Two-dimension square matrix, that presents an image.</param>
         /// <exception cref="ArgumentNullException">Throw when source matrix is null.</exception>
@@ -17,7 +17,7 @@ namespace RotateMatrix
         }
 
         /// <summary>
-        /// Rotates the image counterclockwise by 90° and do it in place.
+        /// Rotates the image counterclockwise by 90° in place.
         /// </summary>
         /// <param name="matrix">Two-dimension square matrix, that presents an image.</param>
         /// <exception cref="ArgumentNullException">Throw when source matrix is null.</exception>
@@ -27,7 +27,7 @@ namespace RotateMatrix
         }
 
         /// <summary>
-        /// Rotates the image clockwise by 180° and do it in place.
+        /// Rotates the image clockwise by 180° in place.
         /// </summary>
         /// <param name="matrix">Two-dimension square matrix, that presents an image.</param>
         /// <exception cref="ArgumentNullException">Throw when source matrix is null.</exception>
@@ -37,7 +37,7 @@ namespace RotateMatrix
         }
 
         /// <summary>
-        /// Rotates the image counterclockwise by 180° and do it in place.
+        /// Rotates the image counterclockwise by 180° in place.
         /// </summary>
         /// <param name="matrix">Two-dimension square matrix, that presents an image.</param>
         /// <exception cref="ArgumentNullException">Throw when source matrix is null.</exception>
@@ -47,7 +47,7 @@ namespace RotateMatrix
         }
 
         /// <summary>
-        /// Rotates the image clockwise by 270° and do it in place.
+        /// Rotates the image clockwise by 270° in place.
         /// </summary>
         /// <param name="matrix">Two-dimension square matrix, that presents an image.</param>
         /// <exception cref="ArgumentNullException">Throw when source matrix is null.</exception>
@@ -57,7 +57,7 @@ namespace RotateMatrix
         }
 
         /// <summary>
-        /// Rotates the image counterclockwise by 270° and do it in place.
+        /// Rotates the image counterclockwise by 270° in place.
         /// </summary>
         /// <param name="matrix">Two-dimension square matrix, that presents an image.</param>
         /// <exception cref="ArgumentNullException">Throw when source matrix is null.</exception>
@@ -67,7 +67,7 @@ namespace RotateMatrix
         }
 
         /// <summary>
-        /// Rotates the image clockwise by 360° and do it in place.
+        /// Rotates the image clockwise by 360° in place.
         /// </summary>
         /// <param name="matrix">Two-dimension square matrix, that presents an image.</param>
         /// <exception cref="ArgumentNullException">Throw when source matrix is null.</exception>
@@ -77,7 +77,7 @@ namespace RotateMatrix
         }
 
         /// <summary>
-        /// Rotates the image counterclockwise by 360° and do it in place.
+        /// Rotates the image counterclockwise by 360° in place.
         /// </summary>
         /// <param name="matrix">Two-dimension square matrix, that presents an image.</param>
         /// <exception cref="ArgumentNullException">Throw when source matrix is null.</exception>
