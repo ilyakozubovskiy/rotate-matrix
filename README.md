@@ -10,4 +10,4 @@ Given an image represented by an `n x n` matrix, where each pixel in the image i
 - Implement a [Rotate360DegreesСlockwise](RotateMatrix/ArrayExtensions.cs#L74) extention mehods that rotates the image clockwise by `360°` (do it in place).  
 - Implement a [Rotate360DegreesCounterСlockwise](RotateMatrix/ArrayExtensions.cs#L84) extention mehods that rotates the image counterclockwise by `360°` (do it in place).    
 The task definition is given in the XML-comments for the method.     
-_Restriction: Do not reduce the tasks to the challenge of turning by `90°`._    
+_Restriction: Do not reduce the tasks to the challenge of turning by `90°`. Use only use only the capabilities of the C# language._    
