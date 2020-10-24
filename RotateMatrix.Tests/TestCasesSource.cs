@@ -130,7 +130,7 @@ namespace RotateMatrix.Tests
             }
         }
 
-        public static IEnumerable<TestCaseData> TestCasesRotate180DegreesСlockwise
+        public static IEnumerable<TestCaseData> TestCasesRotate180DegreesClockwise
         {
             get
             {
@@ -254,7 +254,7 @@ namespace RotateMatrix.Tests
             }
         }
 
-        public static IEnumerable<TestCaseData> TestCasesRotate270DegreesСlockwise
+        public static IEnumerable<TestCaseData> TestCasesRotate270DegreesClockwise
         {
             get
             {
@@ -379,7 +379,7 @@ namespace RotateMatrix.Tests
             }
         }
 
-        public static IEnumerable<TestCaseData> TestCasesRotate360DegreesСlockwise
+        public static IEnumerable<TestCaseData> TestCasesRotate360DegreesClockwise
         {
             get
             {
@@ -541,7 +541,7 @@ namespace RotateMatrix.Tests
             }
         }
 
-        public static IEnumerable<TestCaseData> TestCasesRotate90DegreesCounterСlockwise
+        public static IEnumerable<TestCaseData> TestCasesRotate90DegreesCounterClockwise
         {
             get
             {
@@ -711,7 +711,7 @@ namespace RotateMatrix.Tests
             }
         }
 
-        public static IEnumerable<TestCaseData> TestCasesRotate180DegreesCounterСlockwise
+        public static IEnumerable<TestCaseData> TestCasesRotate180DegreesCounterClockwise
         {
             get
             {
@@ -875,7 +875,7 @@ namespace RotateMatrix.Tests
             }
         }
 
-        public static IEnumerable<TestCaseData> TestCasesRotate270DegreesCounterСlockwise
+        public static IEnumerable<TestCaseData> TestCasesRotate270DegreesCounterClockwise
         {
             get
             {
@@ -1068,7 +1068,7 @@ namespace RotateMatrix.Tests
             }
         }
 
-        public static IEnumerable<TestCaseData> TestCasesRotate360DegreesCounterСlockwise
+        public static IEnumerable<TestCaseData> TestCasesRotate360DegreesCounterClockwise
         {
             get
             {
