@@ -21,7 +21,7 @@ namespace RotateMatrix.Tests
             Assert.Throws<ArgumentNullException>(() => ArrayExtensions.Rotate90DegreesClockwise(null));
         }
 
-        [TestCaseSource(typeof(TestCasesSource), nameof(TestCasesSource.TestCasesRotate180DegreesСlockwise))]
+        [TestCaseSource(typeof(TestCasesSource), nameof(TestCasesSource.TestCasesRotate180DegreesClockwise))]
         public void Rotate180DegreesClockwise_Tests(int[,] matrix, int[,] rotatedMatrix)
         {
             matrix.Rotate180DegreesClockwise();
@@ -34,7 +34,7 @@ namespace RotateMatrix.Tests
             Assert.Throws<ArgumentNullException>(() => ArrayExtensions.Rotate180DegreesClockwise(null));
         }
 
-        [TestCaseSource(typeof(TestCasesSource), nameof(TestCasesSource.TestCasesRotate270DegreesСlockwise))]
+        [TestCaseSource(typeof(TestCasesSource), nameof(TestCasesSource.TestCasesRotate270DegreesClockwise))]
         public void Rotate270DegreesClockwise_Tests(int[,] matrix, int[,] rotatedMatrix)
         {
             matrix.Rotate270DegreesClockwise();
@@ -47,7 +47,7 @@ namespace RotateMatrix.Tests
             Assert.Throws<ArgumentNullException>(() => ArrayExtensions.Rotate270DegreesClockwise(null));
         }
 
-        [TestCaseSource(typeof(TestCasesSource), nameof(TestCasesSource.TestCasesRotate360DegreesСlockwise))]
+        [TestCaseSource(typeof(TestCasesSource), nameof(TestCasesSource.TestCasesRotate360DegreesClockwise))]
         public void Rotate360DegreesClockwise_Tests(int[,] matrix, int[,] rotatedMatrix)
         {
             matrix.Rotate360DegreesClockwise();
